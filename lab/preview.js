@@ -610,3 +610,4 @@ export default async function decoratePreviewMode(document, options) {
     console.log(e);
   }
 }
+window.previewModule = { default: decoratePreviewMode };
